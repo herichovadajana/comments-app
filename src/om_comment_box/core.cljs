@@ -23,8 +23,10 @@
   (render [this]
           (dom/form #js {:onSubmit (fn [event]
                                      (.preventDefault event)
-                                     (.log js/console ((:submit-comment (om/props this))
-                                                       {:name (:name (om/get-state this)) :message (:message (om/get-state this))})))}
+                                     ((:submit-comment (om/props this))
+                                      {:name (:name (om/get-state this))
+                                       :message (:message (om/get-state this))})
+                                     (om/update-state! this assoc :name "" :message ""))}
                     (dom/div #js {:className "input-group my-input"}
                              (dom/span #js {:className "input-group-addon"
                                             :id "basic-addon"} "Name")
