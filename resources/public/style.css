@@ -1,0 +1,58 @@
+#input-style {
+    padding: 6px 12px;
+}
+
+.need-margin {
+    margin-top: 30px;
+    margin-left: 50px;
+}
+
+
+.my-title {
+    margin-bottom: 20px;
+}
+
+.my-title h1{
+    font-size: 30px;
+    color: pink;
+    display: inline-block
+}
+
+.pencil {
+    font-size: 30px;
+    color: pink;
+    display: inline-block
+}
+
+.my-input {
+    margin-bottom: 10px;
+}
+
+.comments-list {
+    margin-top: 30px;
+    padding-left: 0px;
+    max-width: 600px;
+}
+
+.comments-list li {
+    font-size: 15px;
+    color: #555;
+    list-style: none;
+}
+
+h3 {
+    color: rgba(160, 40, 83, 0.74);
+    font-size: 15px;
+    display: inline-block;
+
+}
+
+h4 {
+    font-size: 20px;
+    color: rgba(102, 185, 77, 0.81);
+}
+
+p {
+    display: inline-block;
+    margin-left: 10px;
+}

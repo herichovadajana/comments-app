@@ -1,0 +1,16 @@
+pom.xml
+pom.xml.asc
+*jar
+/out/
+/lib/
+/classes/
+/target/
+/checkouts/
+.lein-deps-sum
+.lein-repl-history
+.lein-plugins/
+.lein-failures
+*.log
+/resources/public/js/
+.nrepl-port
+figwheel_server.log
